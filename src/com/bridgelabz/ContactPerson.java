@@ -53,6 +53,10 @@ public class ContactPerson implements Comparable {
             this.state = state;
         }
 
+        public int getZipCode() {
+            return zipCode;
+        }
+
         public void setZipCode(int zipCode) {
             this.zipCode = zipCode;
         }
